@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic", "Basic", "{1CA5090A-5015-463D-A25A-71352634D875}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ajax", "Ajax", "{89BF492E-9579-42C1-B5CF-6BCBEC8D8786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlAjaxService", "Basic\Ajax\XmlAjaxService\XmlAjaxService.csproj", "{1AF82C39-D454-4F78-AAA5-8F318F13D53F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AF82C39-D454-4F78-AAA5-8F318F13D53F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF82C39-D454-4F78-AAA5-8F318F13D53F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF82C39-D454-4F78-AAA5-8F318F13D53F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF82C39-D454-4F78-AAA5-8F318F13D53F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89BF492E-9579-42C1-B5CF-6BCBEC8D8786} = {1CA5090A-5015-463D-A25A-71352634D875}
+		{1AF82C39-D454-4F78-AAA5-8F318F13D53F} = {89BF492E-9579-42C1-B5CF-6BCBEC8D8786}
+	EndGlobalSection
+EndGlobal
